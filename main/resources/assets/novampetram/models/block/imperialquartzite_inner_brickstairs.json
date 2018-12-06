@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "novampetram:blocks/imperialquartzite_stonebrick",
+        "top": "novampetram:blocks/imperialquartzite_stonebrick",
+        "side": "novampetram:blocks/imperialquartzite_stonebrick"
+    }
+}

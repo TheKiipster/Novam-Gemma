@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "novampetram:blocks/ore_magnetite"
+    }
+}

@@ -1,7 +1,12 @@
 package kipster.ng.util;
 
+import java.io.File;
+
 import kipster.ng.blocks.BlockInit;
+import kipster.ng.config.RockGenConfig;
 import kipster.ng.items.ItemInit;
+import kipster.ng.worldgen.WorldGenOres;
+import kipster.ng.worldgen.WorldGenRocks;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.world.WorldType;
@@ -16,6 +21,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 @EventBusSubscriber
 public class RegistryHandler 
 {
+
 	
 	@SubscribeEvent
 	public static void onItemRegister(RegistryEvent.Register<Item> event)
@@ -54,18 +60,18 @@ public class RegistryHandler
 	public static void preInitRegistries(FMLPreInitializationEvent e)
 	{
 		
-	}
+		GameRegistry.registerWorldGenerator(new WorldGenRocks(), 0);
+		GameRegistry.registerWorldGenerator(new WorldGenOres(), 0);
+		}
 	
 	public static void initRegistries()
 	{
 		OreDictionaryHandler.registerOreDictionary();
 		FurnaceRecipeHandler.registerFurnaceRecipes();
-	
+		GameRegistry.registerFuelHandler(new FuelHandler());
 	}
 	
 	public static void postInitRegistries()
 	{
-
 	}
-
 }

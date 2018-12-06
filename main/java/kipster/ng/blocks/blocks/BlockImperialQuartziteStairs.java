@@ -2,7 +2,7 @@ package kipster.ng.blocks.blocks;
 
 import java.util.Random;
 
-import kipster.ng.NovamGemma;
+import kipster.ng.NovamPetram;
 import kipster.ng.blocks.BlockInit;
 import kipster.ng.items.ItemInit;
 import kipster.ng.util.IHasModel;
@@ -23,7 +23,7 @@ public class BlockImperialQuartziteStairs extends BlockStairs implements IHasMod
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setSoundType(SoundType.STONE);
-		setCreativeTab(NovamGemma.NOVAMGEMMATAB);
+		setCreativeTab(NovamPetram.NOVAMPETRAMTAB);
 		this.useNeighborBrightness = true;
 		
 		
@@ -34,6 +34,6 @@ public class BlockImperialQuartziteStairs extends BlockStairs implements IHasMod
 	@Override
 	public void registerModels() 
 	{
-		NovamGemma.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
+		NovamPetram.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
 	}
 }

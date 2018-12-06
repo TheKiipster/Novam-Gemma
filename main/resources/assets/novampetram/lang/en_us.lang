@@ -1,0 +1,40 @@
+itemGroup.novampetramtab=Novam Petram
+
+//Stones
+tile.imperialquartzite_stone.name=Imperial Quartzite
+
+//Cobblestone
+tile.imperialquartzite_cobblestone.name=Imperial Quartzite Cobblestone
+
+//Stonebrick
+tile.imperialquartzite_stonebrick.name=Imperial Quartzite Stonebricks
+
+//Stairs
+tile.imperialquartzite_stairs.name=Imperial Quartzite Stairs
+tile.imperialquartzite_brickstairs.name=Imperial Quartzite Stonebrick Stairs
+
+//Iron
+tile.ore_hematite.name=Hematite Iron Ore
+tile.ore_goethite.name=Goethite Iron Ore
+tile.ore_magnetite.name=Magnetite Iron Ore
+tile.ore_magnetite_imperial.name=Magnetite Iron Ore
+tile.ore_limonite.name=Limonite Iron Ore
+tile.ore_siderite.name=Siderite Iron Ore
+tile.ore_ankerite.name=Ankerite Iron Ore
+tile.ore_taconite.name=Taconite Iron Ore
+tile.ore_banded.name=Banded Iron Ore
+tile.ore_quartz_imperial.name=Quartz Ore
+
+//Coal
+tile.ore_anthracite.name=Anthracite Coal Ore
+tile.ore_bituminous.name=Bituminous Coal Ore
+tile.ore_lignite.name=Lignite Coal Ore
+tile.ore_peat.name=Peat Coal Ore
+tile.block_anthracite.name=Block of Anthracite Coal
+tile.block_bituminous.name=Block of Bituminous Coal
+tile.block_lignite.name=Block of Lignite Coal
+tile.block_peat.name=Block of Peat Coal
+item.anthracite.name=Anthracite Coal
+item.bituminous.name=Bituminous Coal
+item.lignite.name=Lignite Coal
+item.peat.name=Peat Coal

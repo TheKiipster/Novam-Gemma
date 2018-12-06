@@ -3,6 +3,7 @@ package kipster.ng.util;
 import kipster.ng.blocks.BlockInit;
 import kipster.ng.items.ItemInit;
 import net.minecraft.block.Block;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.WorldType;
@@ -21,7 +22,14 @@ public class FurnaceRecipeHandler
 
 public static void registerFurnaceRecipes() {
 	GameRegistry.addSmelting(BlockInit.IMPERIALQUARTZITE_COBBLESTONE, new ItemStack(BlockInit.IMPERIALQUARTZITE_STONE), 1F);
-
+	GameRegistry.addSmelting(BlockInit.ANKERITE_ORE, new ItemStack(Items.IRON_INGOT), 1F);
+	GameRegistry.addSmelting(BlockInit.LIMONITE_ORE, new ItemStack(Items.IRON_INGOT), 1F);
+	GameRegistry.addSmelting(BlockInit.HEMATITE_ORE, new ItemStack(Items.IRON_INGOT), 1F);
+	GameRegistry.addSmelting(BlockInit.GOETHITE_ORE, new ItemStack(Items.IRON_INGOT), 1F);
+	GameRegistry.addSmelting(BlockInit.MAGNETITE_ORE, new ItemStack(Items.IRON_INGOT), 1F);
+	GameRegistry.addSmelting(BlockInit.SIDERITE_ORE, new ItemStack(Items.IRON_INGOT), 1F);
+	GameRegistry.addSmelting(BlockInit.TACONITE_ORE, new ItemStack(Items.IRON_INGOT), 1F);
+	GameRegistry.addSmelting(BlockInit.BANDED_ORE, new ItemStack(Items.IRON_INGOT), 1F);
 	
 	System.out.println("Furnace Recipes Registered");
 }
